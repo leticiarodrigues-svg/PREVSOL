@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#087f72">
+<title>prevsol | Guia de prevenção</title>
+<style>
+:root{--ink:#4a2118;--muted:#81564b;--bg:#fff8ed;--card:#fffdf8;--teal:#e65a24;--teal2:#fff0c2;--gold:#ffd447;--line:#f1d7b8;--danger:#b42332;--shadow:0 12px 32px #8c391010}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}a{color:#c8441e}button,input,select{font:inherit}button,.btn{border:0;border-radius:12px;padding:11px 16px;background:var(--teal);color:white;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}button:hover,.btn:hover{filter:brightness(.94)}button.secondary,.btn.secondary{background:#fff0c2;color:#7b2b1d}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f2b544;outline-offset:2px}
+header{background:linear-gradient(120deg,#a92d22,#e65a24 58%,#f6a623);color:#fff;padding:24px max(20px,calc((100% - 1180px)/2)) 34px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-size:1.25rem;font-weight:850;letter-spacing:.2px}.brand span{color:#ffe17a}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}nav a{color:#fff;text-decoration:none;background:#ffffff1c;border:1px solid #ffffff30;border-radius:99px;padding:7px 12px;font-size:.9rem}.hero{max-width:850px;padding:36px 0 18px}.hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.05;margin:0 0 16px;letter-spacing:-1px}.hero p{font-size:1.1rem;max-width:700px;color:#e4f7f1}.hero .tag{display:inline-block;border-radius:99px;background:#ffffff20;padding:6px 11px;font-size:.84rem;margin-bottom:15px}
+main{max-width:1180px;margin:0 auto;padding:24px 20px 60px}.section{margin:34px 0;scroll-margin-top:20px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:16px}.section h2{font-size:clamp(1.5rem,3vw,2rem);line-height:1.2;margin:0 0 7px}.lead{color:var(--muted);margin:0;max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow);min-width:0}.card h3{margin:8px 0}.card p{margin:8px 0;color:var(--muted)}.icon{font-size:1.7rem}.pill{display:inline-block;border-radius:99px;padding:4px 9px;background:var(--teal2);color:#a92d22;font-size:.8rem;font-weight:750}.notice{border-left:4px solid #f0a126;background:#fff0c2;padding:14px 16px;border-radius:8px;margin:16px 0}.urgent{border-left-color:var(--danger);background:#fff0e9}.small{font-size:.88rem;color:var(--muted)}.checklist{padding-left:21px}.checklist li{margin:7px 0}.uv-meter{height:22px;border-radius:99px;overflow:hidden;display:flex;margin:18px 0 8px;background:#eee}.uv-meter span{flex:1;border-right:2px solid white}.uv-meter span:last-child{border:0}.uv-legend{display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted);gap:6px}.uv-value{font-size:3rem;font-weight:850;line-height:1.15}.uv-dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px}.formrow{display:flex;gap:9px;flex-wrap:wrap}.formrow input,.formrow select,input[type=text],select{min-width:0;border:1px solid #cbdad4;background:#fff;border-radius:11px;padding:11px 12px;color:var(--ink)}.formrow input{flex:1}.formrow select{flex:1}.status{padding:12px;border-radius:12px;background:#fff3df;margin-top:12px}.sign-visual{height:125px;border-radius:13px;background:linear-gradient(135deg,#ffe8a3,#f6b07b);display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative;overflow:hidden}.sign-visual:after{content:"";position:absolute;width:90px;height:90px;border:2px dashed #a75c3c55;border-radius:50%}.sign-card{display:flex;flex-direction:column}.sign-card .small{margin-top:auto}.sun-icon{font-size:2.2rem}.tagrow{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.tagrow span{background:#fff0df;border-radius:7px;padding:4px 8px;font-size:.8rem}.profile-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.field label{display:block;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%}.field.full{grid-column:1/-1}.saved{color:#c8441e;font-weight:700;min-height:1.5em}.footer{background:#57241d;color:#fff1d7;padding:28px 20px}.footer-inner{max-width:1180px;margin:auto}.footer p{color:#ffe0bd;font-size:.9rem}.backtop{position:fixed;bottom:16px;right:16px;border-radius:50%;width:46px;height:46px;padding:0;box-shadow:var(--shadow)}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.top{align-items:flex-start;flex-direction:column}}
+@media(max-width:570px){main{padding:18px 14px 45px}.grid,.grid.two,.profile-form{grid-template-columns:1fr}.hero{padding-top:26px}.card{padding:17px}.section-head{display:block}.uv-legend{font-size:.68rem}}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><div class="brand">☀️ prev<span>sol</span></div><div>Informação • Prevenção • Cuidado</div></div>
+  <div class="hero"><span class="tag">GUIA EDUCATIVO DE SAÚDE</span><h1>Proteja sua pele.<br>Cuide dos seus lábios.</h1><p>Informação prática para reduzir os danos da radiação ultravioleta, reconhecer alterações suspeitas e encontrar atendimento de saúde.</p><a class="btn" href="#prevencao">Começar a se proteger</a></div>
+  <nav aria-label="Navegação principal">
+    <a href="#prevencao">Prevenção</a><a href="#uv">Índice UV</a><a href="#sinais">Sinais clínicos</a><a href="#protetor">Protetores</a><a href="#profissionais">Encontrar atendimento</a><a href="#perfil">Meu perfil</a>
+  </nav>
+</header>
+<main>
+<section class="section" id="prevencao">
+ <div class="section-head"><div><h2>Prevenção no dia a dia</h2><p class="lead">A proteção funciona melhor quando você combina barreiras físicas, sombra e protetor solar.</p></div></div>
+ <div class="grid">
+  <article class="card"><div class="icon">👒</div><h3>Chapéu de abas largas</h3><p>Prefira abas que protejam rosto, orelhas e nuca. Bonés protegem parte do rosto, mas deixam orelhas e nuca mais expostas.</p></article>
+  <article class="card"><div class="icon">👕</div><h3>Mangas e roupas</h3><p>Use camisa de manga longa, tecido fechado ou com fator de proteção ultravioleta (FPU). Roupas secas e menos transparentes tendem a proteger melhor.</p></article>
+  <article class="card"><div class="icon">🕶️</div><h3>Óculos e sombra</h3><p>Escolha óculos com proteção UV e procure sombra. A radiação pode atingir a pele mesmo em dias nublados e por reflexão.</p></article>
+  <article class="card"><div class="icon">💋</div><h3>Proteja os lábios</h3><p>Use protetor labial com FPS 30 ou maior e proteção UVA/UVB. Reaplique após comer, beber, nadar ou limpar os lábios.</p></article>
+  <article class="card"><div class="icon">🧴</div><h3>Protetor corporal</h3><p>Prefira amplo espectro, FPS 30 ou maior e resistência à água quando necessário. Reaplique pelo menos a cada 2 horas ao ar livre.</p></article>
+  <article class="card"><div class="icon">🧑‍🌾</div><h3>Trabalho ao ar livre</h3><p>Planeje pausas à sombra, ajuste tarefas quando possível e use EPI adequado: chapéu, roupa de manga longa, óculos e protetor. Siga as regras de segurança do trabalho.</p></article>
+ </div>
+ <div class="notice"><strong>O que é queilite actínica?</strong> É uma alteração crônica do lábio, geralmente o inferior, causada principalmente pela exposição solar acumulada. Pode causar ressecamento persistente, descamação, fissuras e perda da definição da borda do lábio. É uma condição potencialmente pré-maligna e precisa de avaliação profissional.</div>
+</section>
+
+<section class="section" id="uv">
+ <div class="section-head"><div><h2>Índice UV por cidade</h2><p class="lead">Consulte a previsão UV para planejar sua proteção. Os dados dependem da disponibilidade do serviço meteorológico.</p></div></div>
+ <div class="card">
+  <form id="uvForm" class="formrow"><input id="cityInput" type="text" value="Fortaleza" aria-label="Cidade para consultar" placeholder="Digite uma cidade (ex.: Fortaleza)" required><button type="submit">Consultar índice UV</button></form>
+  <div id="uvResult" class="status" aria-live="polite">Carregando índice UV de Fortaleza…</div>
+  <div class="uv-meter" aria-label="Escala de índice UV"><span style="background:#3ca55c"></span><span style="background:#a8d64f"></span><span style="background:#ffe15a"></span><span style="background:#ffad42"></span><span style="background:#ed5949"></span><span style="background:#b05ab5"></span></div>
+  <div class="uv-legend"><span>Baixo 0–2</span><span>Moderado 3–5</span><span>Alto 6–7</span><span>Muito alto 8–10</span><span>Extremo 11+</span></div>
+  <div id="uvAdvice" class="notice">Use sombra, roupas, chapéu e protetor solar. Redobre os cuidados quando o índice estiver alto.</div>
+  <p class="small">Fonte dos dados: Open-Meteo (geocodificação e previsão). O índice exibido é uma estimativa meteorológica, não uma medição clínica nem garantia das condições exatas no local.</p>
+ </div>
+</section>
+
+<section class="section" id="sinais">
+ <div class="section-head"><div><h2>Guia de sinais clínicos</h2><p class="lead">Observe mudanças persistentes. As descrições abaixo são educativas e não permitem diagnóstico por conta própria.</p></div></div>
+ <div class="grid">
+  <article class="card sign-card"><div class="sign-visual" aria-hidden="true">👄</div><span class="pill">Lábios</span><h3>Ressecamento ou descamação persistente</h3><p>Descamação recorrente, fissuras, aspereza ou perda da nitidez da borda do lábio, especialmente no lábio inferior, podem ocorrer na queilite actínica.</p><div class="tagrow"><span>Não ignore se persistir</span><span>Exposição solar crônica</span></div><p class="small"><strong>Procure:</strong> estomatologista, cirurgião-dentista com experiência em estomatologia ou dermatologista.</p></article>
+  <article class="card sign-card"><div class="sign-visual" aria-hidden="true">🩹</div><span class="pill">Feridas</span><h3>Ferida que não cicatriza</h3><p>Ferida no lábio ou na pele que sangra, forma crosta repetidamente ou não cicatriza merece avaliação, principalmente se persistir por algumas semanas.</p><div class="tagrow"><span>Ferida persistente</span><span>Sangramento</span></div><p class="small"><strong>Procure:</strong> UBS, dermatologista ou estomatologista. Não espere se houver crescimento rápido ou sangramento importante.</p></article>
+  <article class="card sign-card"><div class="sign-visual" aria-hidden="true">🔴</div><span class="pill">Pele</span><h3>Mancha ou lesão em mudança</h3><p>Fique atento a lesão que cresce, muda de cor ou forma, tem bordas irregulares, coça ou sangra. Uma lesão nova também pode precisar de avaliação.</p><div class="tagrow"><span>ABCDE</span><span>Alteração recente</span></div><p class="small"><strong>Procure:</strong> dermatologista ou equipe da UBS para avaliação e encaminhamento.</p></article>
+  <article class="card sign-card"><div class="sign-visual" aria-hidden="true">⚪</div><span class="pill">Boca</span><h3>Mancha branca ou vermelha</h3><p>Placa branca ou vermelha na boca que não desaparece, caroço, endurecimento ou dor persistente precisa ser examinado.</p><div class="tagrow"><span>Não raspar</span><span>Não se automedicar</span></div><p class="small"><strong>Procure:</strong> estomatologista ou cirurgião-dentista; a UBS pode orientar o acesso.</p></article>
+  <article class="card sign-card"><div class="sign-visual" aria-hidden="true">🟤</div><span class="pill">Pintas</span><h3>Regra ABCDE para sinais</h3><p><strong>A</strong>simetria, <strong>B</strong>ordas irregulares, <strong>C</strong>ores variadas, <strong>D</strong>iâmetro em crescimento e <strong>E</strong>volução (mudança). Nem todo câncer segue todos esses critérios.</p><div class="tagrow"><span>Observe mudanças</span></div><p class="small"><strong>Procure:</strong> dermatologista para examinar a lesão.</p></article>
+  <article class="card sign-card"><div class="sign-visual" aria-hidden="true">🩺</div><span class="pill">Avaliação</span><h3>Quando procurar atendimento?</h3><p>Não é necessário ter dor para uma lesão ser importante. Avaliação precoce é indicada para lesões persistentes, novas ou em mudança.</p><div class="tagrow"><span>Evite esperar</span></div><p class="small"><strong>Comece por:</strong> UBS, dermatologista ou estomatologista.</p></article>
+ </div>
+ <div class="notice urgent"><strong>Atenção:</strong> este guia não confirma nem exclui câncer. Se houver lesão suspeita, marque avaliação presencial. Procure atendimento urgente diante de sangramento que não cessa, inchaço súbito importante ou dificuldade para respirar ou engolir.</div>
+</section>
+
+<section class="section" id="protetor">
+ <div class="section-head"><div><h2>Guia de protetores solares</h2><p class="lead">Escolha um produto adequado à área, ao tipo de exposição e às instruções do rótulo.</p></div></div>
+ <div class="grid two">
+  <article class="card"><div class="icon">💋</div><h3>Protetor labial</h3><ul class="checklist"><li>FPS 30 ou maior, com proteção contra UVA e UVB.</li><li>Aplique em toda a superfície dos lábios antes da exposição.</li><li>Reaplique frequentemente, especialmente após comer, beber, nadar ou lamber/limpar os lábios.</li><li>Use chapéu de abas largas como proteção complementar.</li></ul></article>
+  <article class="card"><div class="icon">🧴</div><h3>Protetor corporal e facial</h3><ul class="checklist"><li>Prefira amplo espectro e FPS 30 ou maior; FPS mais alto pode ser útil em exposição intensa ou maior risco.</li><li>Aplique quantidade generosa em toda a pele exposta, sem esquecer orelhas, pescoço, nuca, mãos e couro cabeludo descoberto.</li><li>Aplique antes de sair, conforme o rótulo. Reaplique a cada 2 horas ao ar livre e após nadar, suar muito ou se secar com toalha.</li><li>Protetor não substitui roupas, chapéu, sombra e pausas.</li></ul></article>
+ </div>
+ <div class="notice"><strong>Sobre FPS:</strong> o Fator de Proteção Solar é uma medida relacionada à proteção contra queimadura UVB, nas condições do teste. Não significa que seja seguro permanecer indefinidamente ao sol. Siga o rótulo e as orientações de um profissional, especialmente em caso de alergias ou doenças de pele.</div>
+</section>
+
+<section class="section" id="profissionais">
+ <div class="section-head"><div><h2>Localizador de profissionais e serviços</h2><p class="lead">Pesquise por cidade e abra um mapa com opções próximas. Confirme especialidade, endereço, horários e disponibilidade diretamente com o serviço.</p></div></div>
+ <div class="card">
+  <form id="locForm" class="formrow"><input id="locCity" type="text" placeholder="Cidade ou bairro (ex.: Fortaleza, CE)" value="Fortaleza, CE" aria-label="Cidade ou bairro"><select id="serviceType" aria-label="Tipo de atendimento"><option value="dermatologista">Dermatologistas</option><option value="estomatologista">Estomatologistas</option><option value="universidade atendimento odontológico estomatologia">Universidades com atendimento odontológico/estomatológico</option><option value="Unidade Básica de Saúde UBS">UBS — Unidade Básica de Saúde</option></select><button type="submit">Buscar no mapa</button></form>
+  <div id="locLinks" class="grid two" style="margin-top:16px">
+   <a class="card" target="_blank" rel="noopener" href="https://www.google.com/maps/search/dermatologista+Fortaleza+CE"><strong>🩺 Dermatologistas</strong><p>Abrir resultados no mapa</p></a>
+   <a class="card" target="_blank" rel="noopener" href="https://www.google.com/maps/search/estomatologista+Fortaleza+CE"><strong>🦷 Estomatologistas</strong><p>Abrir resultados no mapa</p></a>
+   <a class="card" target="_blank" rel="noopener" href="https://www.google.com/maps/search/universidade+atendimento+odontol%C3%B3gico+Fortaleza+CE"><strong>🎓 Universidades e clínicas-escola</strong><p>Confirme se há atendimento à comunidade</p></a>
+   <a class="card" target="_blank" rel="noopener" href="https://www.google.com/maps/search/UBS+Fortaleza+CE"><strong>🏥 UBS próximas</strong><p>Procure a unidade de saúde do seu território</p></a>
+  </div>
+  <p class="small">Os links abrem uma busca externa; não representam confirmação de cadastro, qualidade, atendimento gratuito ou disponibilidade. Para o SUS, também é possível procurar a Secretaria Municipal de Saúde ou uma UBS da sua área.</p>
+ </div>
+</section>
+
+<section class="section" id="perfil">
+ <div class="section-head"><div><h2>Meu perfil de prevenção</h2><p class="lead">Personalize as informações para lembrar fatores relevantes de exposição. Seus dados ficam salvos apenas neste navegador, neste dispositivo.</p></div></div>
+ <div class="card">
+  <form id="profileForm" class="profile-form">
+   <div class="field"><label for="favCity">Cidade favorita / onde mora</label><input id="favCity" type="text" placeholder="Ex.: Fortaleza, CE"></div>
+   <div class="field"><label for="phototype">Fototipo de pele (Fitzpatrick)</label><select id="phototype"><option value="">Selecione…</option><option value="I">I — Muito clara; sempre queima, nunca bronzeia</option><option value="II">II — Clara; queima com facilidade, bronzeia pouco</option><option value="III">III — Clara a morena clara; pode queimar, bronzeia gradualmente</option><option value="IV">IV — Morena; queima pouco, bronzeia com facilidade</option><option value="V">V — Morena escura; raramente queima</option><option value="VI">VI — Negra; muito raramente queima</option></select></div>
+   <div class="field full"><label for="occupation">Ocupação / exposição solar</label><select id="occupation"><option value="">Selecione…</option><option>Trabalho predominantemente ao ar livre</option><option>Trabalho misto (interno e externo)</option><option>Trabalho predominantemente em ambiente interno</option><option>Estudante</option><option>Aposentado(a)</option><option>Outra ocupação</option></select></div>
+   <div class="field full"><button type="submit">Salvar perfil neste dispositivo</button> <button type="button" class="secondary" id="clearProfile">Apagar perfil</button></div>
+  </form>
+  <p id="profileMessage" class="saved" aria-live="polite"></p><div id="personalAdvice" class="status">Preencha seu perfil para ver lembretes de prevenção personalizados.</div>
+  <p class="small">O fototipo é uma classificação aproximada da resposta da pele ao sol, não mede sozinho o risco de câncer e não substitui avaliação profissional. Todos os tons de pele precisam de proteção solar.</p>
+ </div>
+</section>
+</main>
+<footer class="footer"><div class="footer-inner"><strong>prevsol — educação em saúde</strong><p>Material educativo. Não substitui consulta, diagnóstico ou tratamento. Em caso de lesão suspeita no lábio, boca ou pele, procure avaliação profissional.</p><p>Índice UV: serviço Open-Meteo. Links de localização: Google Maps. Este site não envia o perfil a um servidor.</p></div></footer>
+<button class="backtop" aria-label="Voltar ao topo" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<script>
+const $=id=>document.getElementById(id);
+function uvLevel(n){if(n<3)return{label:"Baixo",color:"#3ca55c",advice:"Em geral, o risco é menor. Mantenha os cuidados habituais, use roupas e proteja áreas sensíveis."};if(n<6)return{label:"Moderado",color:"#d6bd21",advice:"Procure sombra nos horários de maior intensidade, use chapéu, roupas, óculos e protetor solar."};if(n<8)return{label:"Alto",color:"#f28c28",advice:"A proteção é necessária: reduza a exposição ao sol do meio do dia, procure sombra e use roupas, chapéu, óculos e protetor."};if(n<11)return{label:"Muito alto",color:"#e54b4b",advice:"Evite exposição desnecessária ao sol, especialmente perto do meio-dia. Combine sombra, roupas protetoras e protetor solar."};return{label:"Extremo",color:"#9852a6",advice:"Evite permanecer ao sol, se possível. Busque sombra e use todas as barreiras de proteção; a pele pode sofrer danos rapidamente."}}
+async function loadUV(city){
+ const out=$("uvResult"),adv=$("uvAdvice");out.textContent="Consultando previsão…";adv.textContent="Aguarde a consulta.";
+ try{
+  const g=await fetch("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(city)+"&count=1&language=pt&format=json");
+  if(!g.ok)throw Error("Não foi possível consultar a cidade.");const gj=await g.json();if(!gj.results?.length)throw Error("Cidade não encontrada. Confira a grafia e tente novamente.");
+  const p=gj.results[0];const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${p.latitude}&longitude=${p.longitude}&current=uv_index&daily=uv_index_max&timezone=auto&forecast_days=1`);
+  if(!r.ok)throw Error("Não foi possível obter o índice UV.");const d=await r.json();let value=d.current?.uv_index;
+  let labelDate="agora";if(value==null){value=d.daily?.uv_index_max?.[0];labelDate="máximo previsto para hoje";}
+  if(value==null)throw Error("Índice UV indisponível para esta consulta.");
+  const level=uvLevel(value);out.innerHTML=`<div><strong>${p.name}${p.admin1?", "+p.admin1:""}${p.country?", "+p.country:""}</strong><div class="uv-value" style="color:${level.color}">${Number(value).toFixed(1)}</div><strong><span class="uv-dot" style="background:${level.color}"></span>${level.label}</strong><div class="small">Índice UV ${labelDate}.</div></div>`;
+  adv.textContent=level.advice;
+ }catch(e){out.textContent=e.message||"Não foi possível consultar agora. Tente novamente mais tarde.";adv.textContent="Enquanto isso, use proteção física e protetor solar. Confira também a previsão UV em um serviço meteorológico confiável."}
+}
+$("uvForm").addEventListener("submit",e=>{e.preventDefault();const c=$("cityInput").value.trim();if(c)loadUV(c)});
+loadUV("Fortaleza");
+function updateLocator(){
+ const city=$("locCity").value.trim()||"Brasil";const service=$("serviceType").value;
+ const searches=[["🩺 Dermatologistas","dermatologista"],["🦷 Estomatologistas","estomatologista"],["🎓 Universidades e clínicas-escola","universidade atendimento odontológico estomatologia"],["🏥 UBS próximas","Unidade Básica de Saúde UBS"]];
+ $("locLinks").innerHTML=searches.map(([label,q])=>`<a class="card" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${encodeURIComponent(q+" "+city)}"><strong>${label}</strong><p>Buscar ${q==="universidade atendimento odontológico estomatologia"?"atendimento universitário":q} em ${escapeHTML(city)}</p></a>`).join("");
+}
+function escapeHTML(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+$("locForm").addEventListener("submit",e=>{e.preventDefault();updateLocator()});
+const profileFields=["favCity","phototype","occupation"];
+function renderAdvice(){
+ const photo=$("phototype").value,occ=$("occupation").value,city=$("favCity").value.trim();
+ let text=city?`Cidade informada: ${city}. `:"";
+ if(occ==="Trabalho predominantemente ao ar livre"||occ==="Trabalho misto (interno e externo)")text+="Como sua ocupação pode envolver exposição solar, priorize chapéu de abas largas, roupa de manga longa, sombra e reaplicação do protetor. ";
+ else if(occ)text+="Mesmo em atividades internas, proteja a pele quando estiver ao ar livre ou perto de janelas com exposição solar relevante. ";
+ if(photo==="I"||photo==="II")text+="Peles dos fototipos I e II costumam queimar com facilidade; redobre os cuidados, sem deixar de proteger outras áreas expostas. ";
+ else if(photo)text+="Independentemente do fototipo, proteja lábios e pele e observe lesões novas ou em mudança. ";
+ if(!photo&&!occ&&!city)text="Preencha seu perfil para ver lembretes de prevenção personalizados.";
+ $("personalAdvice").textContent=text;
+}
+function loadProfile(){
+ try{const data=JSON.parse(localStorage.getItem("prevsolProfile")||"{}");profileFields.forEach(id=>{if(data[id]!==undefined)$(id).value=data[id]});renderAdvice()}catch(e){}
+}
+$("profileForm").addEventListener("submit",e=>{e.preventDefault();const data={};profileFields.forEach(id=>data[id]=$(id).value);try{localStorage.setItem("prevsolProfile",JSON.stringify(data));$("profileMessage").textContent="Perfil salvo neste dispositivo.";renderAdvice()}catch(e){$("profileMessage").textContent="Não foi possível salvar neste navegador."}});
+$("clearProfile").addEventListener("click",()=>{profileFields.forEach(id=>$(id).value="");try{localStorage.removeItem("prevsolProfile")}catch(e){}$("profileMessage").textContent="Perfil apagado deste dispositivo.";renderAdvice()});
+profileFields.forEach(id=>$(id).addEventListener("change",renderAdvice));loadProfile();
+</script>
+</body>
+</html>
